@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Open+Sans&family=Poppins:wght@200&display=swap');
+
+* {
+    font-family: 'Fira',sans-serif,bold;
+    background-color: #25252A;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    }
+    a {
+       opacity: 0;
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+        padding: 12px 36px;
+        margin: 10px 0;
+        color: #fff;
+        border-radius: 40px;
+        background: linear-gradient(90deg,#0162c8,#55e7fc);
+        font-size:18px;
+        text-decoration: none;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        
+        
+    }
+    .btn {
+        font-weight: 20px;
+        border: none;
+        background-color: inherit;
+        font-size: 25px;
+        cursor: pointer;
+        display: inline-block;
+        border-radius: 40px;
+        padding: 20px 60px;
+        margin: 10px 0;
+        background: #eee;
+        color: black;
+        text-transform: uppercase;
+        transition: 0.4s;
+        letter-spacing: 2px;
+        overflow: hidden;
+        
+      }
+      .btn:hover {
+        padding: 30px 90px;
+        transition: 0.4s;
+        font-size: 35px;
+        box-shadow: 0 0 50px #fff;
+        
+    
+    }
+      
